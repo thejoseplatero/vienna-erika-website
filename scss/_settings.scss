@@ -42,7 +42,7 @@
 // We use these to control various global styles
 // $body-bg: #fff;
 // $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -117,7 +117,7 @@
 // $include-html-type-classes: $include-html-classes;
 
 // We use these to control header font styles
-// $header-font-family: $body-font-family;
+$header-font-family: 'Bree Serif', Georgia, serif;
 // $header-font-weight: normal;
 // $header-font-style: normal;
 // $header-font-color: #222;
@@ -907,10 +907,10 @@
 // $side-nav-list-margin: rem-calc(0 0 7 0);
 
 // We use these to control link styles.
-// $side-nav-link-color: $primary-color;
+$side-nav-link-color: white;
 // $side-nav-link-color-active: scale-color($side-nav-link-color, $lightness: 30%);
 // $side-nav-link-color-hover: scale-color($side-nav-link-color, $lightness: 30%);
-// $side-nav-font-size: rem-calc(14);
+$side-nav-font-size: rem-calc(21);
 // $side-nav-font-weight: normal;
 // $side-nav-font-family: $body-font-family;
 // $side-nav-active-font-family: $side-nav-font-family;
@@ -1238,3 +1238,5 @@
 // $range-slider-handle-round: $global-rounded;
 // $range-slider-handle-bg-hover-color: scale-color($primary-color, $lightness: -12%);
 // $range-slider-handle-cursor: pointer;
+
+

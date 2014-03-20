@@ -1,0 +1,12 @@
+/* side-sav Overrides
+================================ */
+
+.side-nav{
+  position: absolute;
+  top:100px;
+  left:1.25rem;;
+  z-index: 999999;
+    .divider{
+      width: 20%;
+    }
+}
