@@ -2,7 +2,6 @@
   .ob-full-#{$file_name} {
     min-height: $min_height;
     overflow:hidden;
-    // height: auto;
     background: url(#{$url_path}#{$file_name}.jpg) no-repeat center center fixed;
     background-size: cover;
   }

@@ -1,0 +1,9 @@
+/* side-bar Overrides
+================================ */
+
+#side-bar{
+  position: absolute;
+  top:rem-calc(100);
+  left:rem-calc(20);;
+  z-index: 999999;
+}

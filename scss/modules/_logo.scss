@@ -3,10 +3,10 @@
   .logo {
     z-index: 99999999; 
     background: rgba(0,0,0,0.4);
-    letter-spacing:0.0625em;
+    letter-spacing:rem-calc(10);
     position: absolute;
-    top: 1.25rem;
-    padding: 0.625rem 1.25rem;
+    top: rem-calc(20);
+    padding: rem-calc(10) rem-calc(20);  
     a { 
       color:$tertiary-color;
       }
