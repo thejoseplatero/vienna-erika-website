@@ -1,3 +1,6 @@
+// Custom Mixins
+
+// full responsive background image for orbit
 @mixin ob-full-class ($url_path, $file_name, $min_height: 50rem){
   .ob-full-#{$file_name} {
     min-height: $min_height;
@@ -7,7 +10,7 @@
   }
 }
   
-
+// team profiles with pictures
 @mixin team($url_path, $name, $members...){
   @each $member in $members{
     .#{$name}.#{$member}{
