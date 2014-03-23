@@ -4,3 +4,14 @@
     width: 20%;
   }
 
+ .side-nav {
+
+    a:hover{
+      color:$tertiary-color;
+      font-size: rem-calc(22);
+    }
+  }
+
+.active{
+
+}
