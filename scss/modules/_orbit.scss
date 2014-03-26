@@ -6,5 +6,7 @@
 
 /* Orbit Full Background Images Responsive
 ================================ */
-@include ob-full-class("../assets/img/main/", "main-1");
-@include ob-full-class("../assets/img/main/", "main-2");
+@include full-bg-img-class("../assets/img/main/", "main-1");
+@include full-bg-img-class("../assets/img/main/", "main-2");
+
+

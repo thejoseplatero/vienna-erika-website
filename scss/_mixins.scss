@@ -1,8 +1,8 @@
 // Custom Mixins
 
 // full responsive background image for orbit
-@mixin ob-full-class ($url_path, $file_name, $min_height: 50rem){
-  .ob-full-#{$file_name} {
+@mixin full-bg-img-class ($url_path, $file_name, $min_height: 50rem){
+  .full-bg-img-#{$file_name} {
     min-height: $min_height;
     overflow:hidden;
     background: url(#{$url_path}#{$file_name}.jpg) no-repeat center center fixed;
