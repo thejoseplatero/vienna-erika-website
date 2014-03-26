@@ -1,4 +1,4 @@
-/* Orbit Height Override
+/* Orbit Height Override <MOVE TO LAYOUT
 ================================ */
 .orbit-container{
   height:100%;
@@ -8,5 +8,6 @@
 ================================ */
 @include full-bg-img-class("../assets/img/main/", "main-1");
 @include full-bg-img-class("../assets/img/main/", "main-2");
+@include full-bg-img-class("../assets/img/main/", "main-3");
 
 
