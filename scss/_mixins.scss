@@ -4,7 +4,6 @@
 @mixin full-bg-img-class ($url_path, $file_name, $min_height: 50rem){
   .full-bg-img-#{$file_name} {
     min-height: $min_height;
-    max-height: $min_height;
     overflow:hidden;
     background: url(#{$url_path}#{$file_name}.jpg);
     background-position: center center;
