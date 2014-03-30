@@ -11,6 +11,7 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
+
     <!--  Header -->
     <header id="header">
         <!--  Vienna Logo -->
@@ -48,11 +49,9 @@
                <!-- End Social Bar  -->
              </li>
            </ul>
-          <!--  End Side Bar  -->
+          <!--  End Side Nav  -->
         </div>
-
-        
-        <!-- End Side Bar  -->
+         <!-- End Side Bar  -->
         
         <!--  Orbit Slider -->
         <ul data-orbit data-options="animation:fade; slide_number:false; navigation_arrows:false;  bullets:false; timer_speed:5000; pause_on_hover:false;">
@@ -65,9 +64,39 @@
           </li>
         </ul>
         <!--  End Orbit Slider -->
-
     </header>
     <!--  End Header -->
+
+     <!-- Sticky Nav-Bar  -->
+    <div class="contain-to-grid sticky" data-options="sticky_on: large; scrolltop:false">
+      <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+            <li class="name">
+              <h1><a href="#">Vienna Hehir</a></h1>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#vienna">Menu</a></li>
+          </ul>
+
+          <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+      
+            </ul>
+
+            <!-- Left Nav Section -->
+            <ul class="left">
+              <li><a href="#vienna">Vienna&trade;</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#photo">Photo</a></li>
+              <li><a href="#video">Video</a></li>
+              <li><a href="#love">Things I Love</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </section>
+      </nav>
+    </div>
+     <!-- End Sticky Nav-Bar  -->
 
     <!--  Vienna Section -->
     <div id="vienna" class="content">
@@ -225,6 +254,17 @@
       <div class="row">
         <div class="large-12 columns">
           <h2>Footer</h2>
+          <!--  Social Bar  -->
+          <div id="social-bar">
+           <!--  Social Icons  -->
+            <div class="social-icons">
+              <i class="fi-social-twitter"></i>
+              <i class="fi-social-facebook"></i>
+              <i class="fi-social-instagram"></i>
+            </div>
+             <!--  End Social Icons  -->
+          </div>
+          <!-- End Social Bar  -->
         </div>
       </div>
     </footer>
