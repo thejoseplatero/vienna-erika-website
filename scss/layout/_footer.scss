@@ -1,6 +1,14 @@
+ 
+
 footer{
-  // background:black;
-  // h2{
-  //   color:yellow; 
-  // } 
+  background: #000;
+  color:$tertiary-color;
+
 }
+
+footer h2{
+  padding-top: rem-calc(20);
+  color:$tertiary-color;
+  
+}
+
