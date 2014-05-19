@@ -5,8 +5,10 @@ footer{
   color:$tertiary-color;
 }
 
-footer h2, h3{
-  padding-top: rem-calc(20);
-  color:$tertiary-color;
+footer{
+   h3, h2{
+    padding-top: rem-calc(20);
+    color:$tertiary-color;
+  }
 }
 
